@@ -1,3 +1,4 @@
+import java.util.Scanner; 
 public class Objective7Lab5 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -13,11 +14,11 @@ public class Objective7Lab5 {
       selection = scanner.nextInt();
 
        if(selection == 1) {
-          System.out.print("Hello Human"); 
+          System.out.print("Hello Human\n"); 
         } else if(selection == 2) {
-          System.out.print("Apple, Banana, Coconut");
+          System.out.print("Apple, Banana, Coconut\n");
         } else if(selection == 3) {
-          System.out.println("Goodbye");
+          System.out.println("Goodbye\n");
           break; 
           
         } 
@@ -25,6 +26,10 @@ public class Objective7Lab5 {
 
     scanner.close();
   }
+
+
+
+}
 
 
 
