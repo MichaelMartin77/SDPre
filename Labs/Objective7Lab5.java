@@ -14,11 +14,11 @@ public class Objective7Lab5 {
       selection = scanner.nextInt();
 
        if(selection == 1) {
-          System.out.print("Hello Human\n"); 
+          System.out.println("Hello Human"); 
         } else if(selection == 2) {
-          System.out.print("Apple, Banana, Coconut\n");
+          System.out.println("Apple, Banana, Coconut");
         } else if(selection == 3) {
-          System.out.println("Goodbye\n");
+          System.out.println("Goodbye");
           break; 
           
         } 
