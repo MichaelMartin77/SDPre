@@ -14,9 +14,15 @@ public class Objective7Lab5 {
       selection = scanner.nextInt();
 
        if(selection == 1) {
+<<<<<<< HEAD
           System.out.print("Hello Human\n"); 
         } else if(selection == 2) {
           System.out.print("Apple, Banana, Coconut\n");
+=======
+          System.out.println("Hello Human"); 
+        } else if(selection == 2) {
+          System.out.println("Apple, Banana, Coconut");
+>>>>>>> f98970c7c10dbf36dd716f23de9ce01dbc2dc452
         } else if(selection == 3) {
           System.out.println("Goodbye\n");
           break; 
@@ -26,6 +32,10 @@ public class Objective7Lab5 {
 
     scanner.close();
   }
+
+
+
+}
 
 
 
